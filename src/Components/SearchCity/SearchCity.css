@@ -1,0 +1,29 @@
+.form {
+    height: 45px;
+    border-bottom: 1px solid #000000;
+    position: relative;
+}
+
+.form-input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #696969;
+    padding-left: 16px;
+    border: none;
+}
+
+.form-button {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    width: 22px;
+    height: 22px;
+    font-size: 0;
+    cursor: pointer;
+    background: url("../../image/Shape.svg") no-repeat;
+    border: none;
+}

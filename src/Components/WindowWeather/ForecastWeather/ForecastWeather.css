@@ -1,0 +1,23 @@
+.information__name-current-city {
+    display: inline-block;
+    line-height: 28px;
+    margin: 300px 0 0 12px;
+    white-space: nowrap;
+}
+
+.up {
+    display: block;
+    margin: 33px 0 0 17px;
+}
+
+.information__forecast {
+    height: 312px;
+}
+
+.information__forecast-block {
+    display: block;
+    width: 265px;
+    height: 120px;
+    border: 1px solid #000000;
+    margin: 7px 0 0 18px;
+}

@@ -1,0 +1,41 @@
+.information__name-current-city {
+    display: inline-block;
+    line-height: 28px;
+    margin: 300px 0 0 12px;
+    white-space: nowrap;
+}
+
+.information__about {
+    display: flex;
+    height: 100%;
+}
+
+.up {
+    display: block;
+    margin: 33px 0 0 17px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 28px;
+    /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.information__details {
+    width: 175px;
+    height: 196px;
+    line-height: 28px;
+    margin: 35px 0 53px 17px;
+    color: black;
+}

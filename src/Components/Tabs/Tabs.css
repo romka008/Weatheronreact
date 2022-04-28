@@ -1,0 +1,43 @@
+.information__about {
+    display: flex;
+    height: 100%;
+    /* justify-content: space-between; */
+}
+
+.item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    height: 44px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.item {
+    width: 100%;
+    height: 44px;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: rgb(178, 225, 233);
+    outline: none;
+    user-select: none;
+    float: left;
+}
+
+.item a.active {
+    background-color: rgb(161, 150, 150);
+    color: white;
+}
+
+
+/* 
+.information__button:focus,
+.information__button:active {
+    background-color: black;
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    color: white;
+} */

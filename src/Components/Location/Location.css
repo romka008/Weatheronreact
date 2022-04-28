@@ -1,0 +1,49 @@
+.location {
+    width: 52%;
+}
+
+.location__add {
+    height: 68px;
+    font-size: 24px;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+}
+
+.addedLocation {
+    position: absolute;
+    margin: 33px 0 0 18px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 28px;
+    /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+ul li {
+    margin: 10px 5px 0;
+}
+
+.information__list {
+    width: 175px;
+    height: auto;
+    line-height: 28px;
+    margin: 35px 0 0 17px;
+    color: black;
+}
+
+.location__favorites {
+    height: 320px;
+    overflow: hidden auto;
+}
+
+.location__city {
+    display: flex;
+}
