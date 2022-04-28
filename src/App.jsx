@@ -8,7 +8,7 @@ import cloudDefault from './image/cloud.svg'
 import {getTime} from './helpers/getTime'
 import {useSelector} from 'react-redux'
 
-const serverUrl = 'http://api.openweathermap.org/data/2.5/weather'
+const serverUrl = 'https://api.openweathermap.org/data/2.5/weather'
 const apiKey = 'a278804ed34822e20087d1c2cd1be125'
 
 function App() {
