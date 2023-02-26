@@ -1,12 +1,12 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import './App.css'
 import SearchCity from './Components/SearchCity/SearchCity'
 import WindowWeather from './Components/WindowWeather/WindowWeather'
 import Location from './Components/Location/Location'
 import axios from 'axios'
 import cloudDefault from './image/cloud.svg'
-import {getTime} from './helpers/getTime'
-import {useSelector} from 'react-redux'
+import { getTime } from './helpers/getTime'
+import { useSelector } from 'react-redux'
 
 const serverUrl = 'https://api.openweathermap.org/data/2.5/weather'
 const apiKey = 'a278804ed34822e20087d1c2cd1be125'
@@ -37,7 +37,7 @@ function App() {
               sunrise: getTime(data.sys.sunrise),
               sunset: getTime(data.sys.sunset),
           }
-        : {...defaultValue}
+        : { ...defaultValue }
 
     async function searchCity(city) {
         const url = `${serverUrl}?q=${city}&appid=${apiKey}&units=metric`
